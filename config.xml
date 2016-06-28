@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="cz.rbr.app" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="cz.rbr.app" version="1.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>ROZKOŠ bez RIZIKA</name>
     <description>ROZKOŠ bez RIZIKA</description>
     <author email="praha@rozkosbezrizika.cz" href="http://www.rozkosbezrizika.cz/">RBR</author>
@@ -30,6 +30,20 @@
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
 -->
     <icon src="icon.png" />
+    
+<!-- ldpi --> 
+<icon src="ww/res/icon/android/drawable-ldpi-icon.png"  gap:platform="android" width="36" height="36" />
+<icon src="ww/res/icon/android/drawable-ldpi-icon.png"  gap:platform="android" gap:density="ldpi" /> 
+<!-- mdpi --> 
+<icon src="www/res/icon/android/drawable-mdpi-icon.png"  gap:platform="android" width="48" height="48" /> 
+<icon src="www/res/icon/android/drawable-mdpi-icon.png"  gap:platform="android" gap:density="mdpi" /> 
+<!-- hdpi --> 
+<icon src="www/res/icon/android/drawable-hdpi-icon.png"  gap:platform="android" width="72" height="72" /> 
+<icon src="www/res/icon/android/drawable-hdpi-icon.png"  gap:platform="android" gap:density="hdpi" /> 
+<!-- xhdpi --> 
+<icon src="www/res/icon/android/drawable-xhdpi-icon.png"  gap:platform="android" width="96" height="96" /> 
+<icon src="www/res/icon/android/drawable-xhdpi-icon.png" gap:platform="android" gap:density="xhdpi" />
+
     <platform name="android">
         <icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" />
         <icon density="mdpi" src="www/res/icon/android/drawable-mdpi-icon.png" />
