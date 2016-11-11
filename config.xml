@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="cz.rbr.app" version="1.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>ROZKOŠ bez RIZIKA</name>
-    <description>ROZKOŠ bez RIZIKA</description>
+    <name>Průvodce</name>
+    <description>Průvodce</description>
     <author email="praha@rozkosbezrizika.cz" href="http://www.rozkosbezrizika.cz/">RBR</author>
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
